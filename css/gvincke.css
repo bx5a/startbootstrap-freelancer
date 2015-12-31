@@ -1,0 +1,32 @@
+.navbar-fixed-top {
+    background: #2b9d73;
+}
+
+footer .footer-above {
+    background-color: #2b9d73;
+}
+
+#background-image-filter{
+  background-color:rgba(0,0,0,0.7);
+}
+
+body {
+  background: url('../img/background/text_editor.jpg') no-repeat fixed;
+  background-size: 100%;
+}
+
+header {
+  background: none;
+}
+
+#portfolio {
+  background-color: #cdbf91;
+}
+
+#about {
+  background: none;
+}
+
+#clients {
+  background-color: #2b9d73;
+}
