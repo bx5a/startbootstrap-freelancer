@@ -1,32 +1,79 @@
+/* remove stars in separators */
+hr.star-light:after,
+hr.star-primary:after {
+    content: none;
+}
+
+/* top bar and footer color */
 .navbar-fixed-top {
-    background: #2b9d73;
+  background: #24815f;
 }
 
 footer .footer-above {
-    background-color: #2b9d73;
+  background-color: #24815f;
 }
 
+/* Top bar links hover colors */
+.navbar-fixed-top .navbar-brand:hover,
+.navbar-fixed-top .navbar-brand:focus,
+.navbar-fixed-top .navbar-brand:active {
+  color: #2c3e50;
+}
+
+.navbar-nav .page-scroll .navbar-page-scroll:hover,
+.navbar-nav .page-scroll .navbar-page-scroll:focus,
+.navbar-nav .page-scroll .navbar-page-scroll:active {
+  color: #2c3e50;
+}
+
+
+/* background image  and filter */
 #background-image-filter{
   background-color:rgba(0,0,0,0.7);
 }
-
 body {
   background: url('../img/background/text_editor.jpg') no-repeat fixed;
   background-size: 100%;
 }
 
+/* Buttons */
+.btn-lg {
+  background-color: #cdbf91;
+  border-color: #cdbf91;
+  color: #2c3e50;
+  transition: all .3s ease-in-out;
+}
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active {
+  background-color: #787054;
+  border-color: #787054;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  color: white;
+}
+
+/* elements background */
 header {
   background: none;
 }
-
 #portfolio {
   background-color: #cdbf91;
 }
-
 #about {
   background: none;
 }
-
 #clients {
   background-color: #2b9d73;
 }
+
+
+#contact {
+  color: white;
+}
+#contact textarea:focus, input:focus {
+  color: white;
+}
+
