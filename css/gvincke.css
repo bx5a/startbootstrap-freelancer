@@ -62,14 +62,16 @@ header {
 #portfolio {
   background-color: #cdbf91;
 }
+.resume {
+  background: url('../img/background/resume.jpg') no-repeat;
+  background-size: 100%;
+}
 #about {
   background: none;
 }
 #clients {
   background-color: #2b9d73;
 }
-
-
 #contact {
   color: white;
 }
