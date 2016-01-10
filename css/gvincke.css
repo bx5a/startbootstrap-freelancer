@@ -83,3 +83,12 @@ header {
   color: white;
 }
 
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px;
+}
