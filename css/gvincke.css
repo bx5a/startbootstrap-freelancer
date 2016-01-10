@@ -6,11 +6,11 @@ hr.star-primary:after {
 
 /* top bar and footer color */
 .navbar-fixed-top {
-  background: #24815f;
+  background: #2b9d73;
 }
 
 footer .footer-above {
-  background-color: #24815f;
+  background-color: #2b9d73;
 }
 
 /* Top bar links hover colors */
@@ -39,7 +39,7 @@ body {
 /* Buttons */
 .btn-lg {
   background-color: #cdbf91;
-  border-color: #cdbf91;
+  border-color: #968c6c;
   color: #2c3e50;
   transition: all .3s ease-in-out;
 }
@@ -62,15 +62,19 @@ header {
 #portfolio {
   background-color: #cdbf91;
 }
+#resume-image-filter{
+  background-color:rgba(116,108,81,0.3);
+}
 .resume {
   background: url('../img/background/resume.jpg') no-repeat;
   background-size: 100%;
 }
 #about {
   background: none;
+  color: #2c3e50;
 }
 #clients {
-  background-color: #2b9d73;
+  background-color: #cdbf91;
 }
 #contact {
   color: white;
